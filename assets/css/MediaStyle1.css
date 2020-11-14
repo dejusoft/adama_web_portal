@@ -1,0 +1,459 @@
+
+.CEimg, .EMimg, .ODimg, .PEimg, .PAimg, .SPimg, .GRimg, .GOimg{
+
+border-radius:0px!important;
+
+}
+
+.EM, .CE, .OD, .PE, .PA, .SP, .GR, .GO{
+
+
+border-radius:0px!important;
+
+}
+
+.CS, .US, .PS, .WS, .IS, .TS, .RS, .BG{
+
+
+border-radius:0px!important;
+
+}
+
+.innerDiv {
+
+
+margin:auto!important; 
+width:100%!important;
+border-radius:0px!important;
+
+}
+
+@media screen and (min-width: 1600px) {
+
+.divStyle {
+    width: 100%;
+    height: 246px!important;
+    background-color: #fff;
+    position: relative;
+}
+
+
+
+
+.salutation1 {
+    text-align: left;
+    color: #000;
+    margin-left: 36% !important;
+    text-decoration: none;
+    font-size: 24px !important;
+}
+
+.salutation {
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    margin-left: 36%;
+    font-size: 24px !important;
+    text-decoration: none;
+}
+
+
+
+
+.message {
+    text-align: justify;
+    color: #8c6f6f;
+    margin-left: 36%;
+    width: 60%;
+    font-size: 21.5px !important;
+    margin-top: 1%;
+    border-top: 1px solid #ae936c;
+    padding-top: 2%;
+}
+
+.cmImg {
+    float: left;
+    position: absolute;
+    width: 27%!important;
+    height: 85%!important;
+    z-index: 8;
+    margin-top: 2%!important;
+    margin-left: 6%!important;
+    border-radius: 50%;
+    box-shadow: 3px 6px 7px rgba(96,96,96,0.43);
+}
+
+
+
+.vertical-menu a {
+    background-color: #145c97;
+    color: white;
+    display: block;
+    padding: 14.5px !important;
+    text-decoration: none;
+    font-size: 22px !important;
+  /*  font-weight: bold; */
+    border-bottom: 1px solid #f9d057;
+}
+
+.accordionMain .item .heading {
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px !important;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 15px;
+    background: #145c97 url(/documents/10180/25d88d32-605e-45e5-8180-8aa2f399b329) no-repeat;
+    background-position: right 20px top -95px;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+
+.divStyle {
+    width: 100%;
+    height: 120px!important;
+    background-color: #fff;
+    position: relative;
+}
+
+
+
+
+.salutation1 {
+    text-align: left;
+    color: #000;
+    margin-left: 36% !important;
+    text-decoration: none;
+    font-size: 15px !important;
+}
+
+.salutation {
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    margin-left: 36%;
+    font-size: 15px !important;
+    text-decoration: none;
+}
+
+
+
+
+.message {
+    text-align: justify;
+    color: #8c6f6f;
+    margin-left: 36%;
+    width: 60%;
+    font-size: 10.5px !important;
+    margin-top: 0%!important;
+    border-top: 1px solid #ae936c;
+    padding-top: 2%;
+}
+
+.cmImg {
+    float: left;
+    position: absolute;
+    width: 25%!important;
+    height: 92%!important;
+    z-index: 8;
+    margin-top: 1%!important;
+    margin-left: 6%!important;
+    border-radius: 50%;
+    box-shadow: 3px 6px 7px rgba(96,96,96,0.43);
+}
+
+
+
+.vertical-menu a {
+    background-color: #145c97;
+    color: white;
+    display: block;
+    padding: 5.5px !important;
+    text-decoration: none;
+    font-size: 13px !important;
+   /* font-weight: bold; */
+    border-bottom: 1px solid #f9d057;
+}
+
+.accordionMain .item .heading {
+    height: 44px;
+    line-height: 44px;
+    font-size: 15px !important;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 6px;
+    background: #145c97 url(/documents/10180/25d88d32-605e-45e5-8180-8aa2f399b329) no-repeat;
+    background-position: right 20px top -95px;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+.text{
+
+font-size:13.5px!important;
+}
+
+.EM p, .CE p, .OD p, .PE p, .PA, .SP, .GR, .GO{
+
+font-size:13.5px!important;
+
+}
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+.divStyle {
+    width: 100%;
+    height: 120px!important;
+    background-color: #fff;
+    position: relative;
+}
+
+
+
+
+.salutation1 {
+    text-align: left;
+    color: #000;
+    margin-left: 36% !important;
+    text-decoration: none;
+    font-size: 13px !important;
+}
+
+.salutation {
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    margin-left: 36%;
+    font-size: 13px !important;
+    text-decoration: none;
+}
+
+
+
+
+.message {
+    text-align: justify;
+    color: #8c6f6f;
+    margin-left: 36%;
+    width: 60%;
+    font-size: 10px !important;
+    margin-top: 0%!important;
+    border-top: 1px solid #ae936c;
+    padding-top: 2%;
+}
+
+.cmImg {
+    float: left;
+    position: absolute;
+    width: 25%!important;
+    height: 92%!important;
+    z-index: 8;
+    margin-top: 1%!important;
+    margin-left: 6%!important;
+    border-radius: 50%;
+    box-shadow: 3px 6px 7px rgba(96,96,96,0.43);
+}
+
+
+
+.vertical-menu a {
+    background-color: #145c97;
+    color: white;
+    display: block;
+    padding: 5.5px !important;
+    text-decoration: none;
+    font-size: 13px !important;
+   /* font-weight: bold; */
+    border-bottom: 1px solid #f9d057;
+}
+
+.accordionMain .item .heading {
+    height: 44px;
+    line-height: 44px;
+    font-size: 15px !important;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 6px;
+    background: #145c97 url(/documents/10180/25d88d32-605e-45e5-8180-8aa2f399b329) no-repeat;
+    background-position: right 20px top -95px;
+    border-bottom: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+.text{
+
+font-size:11.5px!important;
+}
+
+.EM p, .CE p, .OD p, .PE p, .PA, .SP, .GR, .GO{
+
+font-size:13px!important;
+
+}
+}
+
+@media (max-width: 768px) {
+
+.innerDiv {
+
+/* background: #ddb994!important; */
+background:#ffbf60!important;
+margin:auto!important; 
+width:90%!important;
+border-radius:7px!important;
+
+}
+
+
+
+.salutation1 {
+   
+    margin-left: 36% !important;
+   
+    font-size: 12px !important;
+}
+
+.salutation {
+    
+    margin-left: 36%!important;
+    font-size: 12px !important;
+    
+}
+
+
+
+
+.message {
+   
+    font-size: 11.25px !important;
+    color:#8c6f6f!important;
+}
+
+.cmImg {
+    
+    width: 25%!important;
+    height: 75%!important;
+	margin-top: 3%!important;
+   
+}
+
+
+
+
+
+
+
+.EM, .CE, .OD, .PE, .PA, .SP, .GR, .GO{
+
+margin:auto!important;
+width:65%!important;
+border-radius:5px!important;
+
+}
+
+
+.CS, .US, .PS, .WS, .IS, .TS, .RS, .BG{
+
+
+margin:auto!important;
+width:65%!important;
+border-radius:5px!important;
+
+
+}
+
+.CEimg, .EMimg, .ODimg, .PEimg, .PAimg, .SPimg, .GRimg, .GOimg{
+
+border-radius:0px!important;
+
+}
+
+.CE{
+border:2px solid #61ada6;
+
+}
+
+.SP{
+border:2px solid #fff48a;
+
+}
+
+.OD{
+border:2px solid #3697d3;
+
+}
+
+.GR{
+border:2px solid #b4b5b6;
+
+}
+
+.PE{
+border:2px solid #9287c0;
+
+}
+
+.GO{
+border:2px solid #7588a1;
+
+}
+
+.PA{
+border:2px solid #f4c5c3;
+
+}
+
+.EM{
+border:2px solid #d1acd1;
+
+}
+
+
+.CS{
+border:2px solid #dcd17a!important;
+
+}
+
+.US{
+border:2px solid #61a374!important;
+
+}
+
+.PS{
+border:2px solid #ececec!important;
+
+}
+
+.WS{
+border:2px solid #bacedb!important;
+
+}
+
+.IS{
+border:2px solid #ca7035!important;
+
+}
+
+.TS{
+border:2px solid #ab6383!important;
+
+}
+
+.RS{
+border:2px solid #fecf09!important;
+
+}
+
+
+}
