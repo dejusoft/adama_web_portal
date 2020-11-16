@@ -7,19 +7,19 @@
                               <div class="accessibilityDiv">
                               </div>
                               <div class="headerNavs">
-                                    <div class="navButton" style="display:inline;"> <a class="navTabInfo" style="display:inline;" href="/home">Home</a> <a class="navTabServices" style="display:inline;" href="/service">e-Services</a> </div>
+                                    <div style="display:inline;"> <a class="btn btn-md btn-primary" style="display:inline;" href="<?php echo base_url('Adama/') ?>">Home</a> <a class="btn btn-md btn-success"" style=" display:inline;" href="<?php echo base_url('Adama/e_services') ?>">e-Services</a> </div>
                               </div>
                         </div>
-                  </div>            
-            </div>        
+                  </div>
+            </div>
       </div>
-      <div id='cssmenu' style="">
+      <div id='cssmenu'>
             <div id="head-mobile"></div>
             <div class="button"></div>
             <ul style="line-height: 2;">
                   <li id="About_Li">
-                        <a href='/about-kerala'>
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/About.png" class="aboutImg" id="About_img"> </div> <span class="menu-title">ABOUT KERALA</span>
+                        <a href='/about-Adama'>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/About.png') ?>" class="aboutImg" id="About_img"> </div> <span class="menu-title">ABOUT ADAMA</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a>Profile</a>
@@ -36,7 +36,7 @@
                               <li><a>Socio-Cultural</a>
                                     <ul>
                                           <li><a href='/literature'>Literature</a> </li>
-                                          <li><a href='/tourism-kerala'>Tourism</a> </li>
+                                          <li><a href='/tourism-Adama'>Tourism</a> </li>
                                           <li><a href='/fairs-festivals'>Festivals</a> </li>
                                           <li><a href='/lifestyle'>Lifestyle</a> </li>
                                           <li><a href='/recreation'>Recreation </a> </li>
@@ -46,7 +46,7 @@
                   </li>
                   <li id="Gov_Li">
                         <a href="/government">
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Government.png" class="gvtImg" id="Gov_img"> </div> <span class="menu-title">GOVERNMENT</span>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Government.png') ?>" class="gvtImg" id="Gov_img"> </div> <span class="menu-title">GOVERNMENT</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a href='/key-contacts'>Who's who</a>
@@ -71,14 +71,14 @@
                   </li>
                   <li id="Service_Li">
                         <a href='/service'>
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Services.png" class="serviceImg" id="Service_img"> </div> <span class="menu-title">SERVICES</span>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Services.png') ?>" class="serviceImg" id="Service_img"> </div> <span class="menu-title">SERVICES</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li> <a href='/service'>e-Services</a> </li>
-                              <li> <a href='/life-event-model'>Life Event Model Services</a> </li>
+                              <li> <a href='<?php echo base_url('Adama/e_services') ?>'>e-Services</a> </li>
+                              <li> <a href='<?php echo base_url('Adama/life_event_model');?>'>Life Event Model Services</a> </li>
                               <li> <a href='/online-service-links'>Online Service Links</a> </li>
-                              <li><a href="/kerala-app-store">Kerala App Store</a> </li>
-                              <li> <a href='http://ksdi.kerala.gov.in/ksdi/' target="_blank">Geo Locator</a> </li>
+                              <li><a href="/Adama-app-store">Adama App Store</a> </li>
+                              <li> <a href='http://ksdi.Adama.gov.in/ksdi/' target="_blank">Geo Locator</a> </li>
                               <li><a>Citizen Service Center</a>
                                     <ul>
                                           <li><a href='/local-service-provider'>Akshaya Centers</a> </li>
@@ -89,7 +89,7 @@
                               <li><a href='/policies'>Policy & Acts</a>
                                     <ul>
                                           <!-- <li><a href='/right-to-services'>Right to Service</a> </li> <li><a href='/citizen-s-charter'>Citizen Charter</a> </li> -->
-                                          <li><a href='http://keralasic.gov.in/' target='_blank'>RTI</a> </li>
+                                          <li><a href='http://Adamasic.gov.in/' target='_blank'>RTI</a> </li>
                                     </ul>
                               </li>
                         </ul>
@@ -97,10 +97,10 @@
                   <li id="Mission_Li">
                         <a href='/missions'>
                               <div class="iconImg">
-                                    <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Mission.png" class="missionImg" id="Mission_img"> </div> <span class="menu-title">MISSIONS</span>
+                                    <img src="<?php echo base_url('assets/adama_img/menu_img/Mission.png') ?>" class="missionImg" id="Mission_img"> </div> <span class="menu-title">MISSIONS</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li><a href='/harithakeralam'>Haritha Keralam</a> </li>
+                              <li><a href='/harithaAdamam'>Haritha Adamam</a> </li>
                               <li><a href='/aardram'>Aardram</a> </li>
                               <li><a href='/life'>LIFE</a> </li>
                               <li><a href='/education-mission'>Education Mission</a> </li>
@@ -108,7 +108,7 @@
                   </li>
                   <li id="People_Li">
                         <a href='/people'>
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/People.png" class="peopleImg" id="People_img"> </div> <span class="menu-title">PEOPLE</span>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/People.png') ?>" class="peopleImg" id="People_img"> </div> <span class="menu-title">PEOPLE</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a href="/education-sector">Education</a>
@@ -146,7 +146,7 @@
                               </li>
                               <li><a href="/employment">Employment</a>
                                     <ul>
-                                          <li><a href='/kerala-psc'>Kerala PSC</a> </li>
+                                          <li><a href='/Adama-psc'>Adama PSC</a> </li>
                                           <li><a href='/employment-directorate'>Employment Department</a> </li>
                                           <li><a href='/official-government-job-portal'>Official Government Job Portal</a> </li>
                                           <li><a href='/self-employment-schemes'>Self Employment Schemes</a> </li>
@@ -165,7 +165,7 @@
                                     </ul>
                               </li>
                               <li>
-                                    <a href = "/non-resident-keralites">Non Resident Keralites</a>
+                                    <a href="/non-resident-keralites">Non Resident Keralites</a>
                                     <ul>
                                           <li><a href='/financial-assistance'>Financial Assistance</a> </li>
                                           <li><a href='/overseas-recruitements'>Overseas Recruitments</a> </li>
@@ -177,7 +177,7 @@
                   </li>
                   <li id="Business_Li">
                         <a href="/business">
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Business.png" class="businessImg" id="Bussiness_img"> </div> <span class="menu-title">BUSINESS</span>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Business.png') ?>" class="businessImg" id="Bussiness_img"> </div> <span class="menu-title">BUSINESS</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a href='/finance-your-project'>Finance Your Project</a>
@@ -227,7 +227,7 @@
                   </li>
                   <li class="has-sub" id="Schemes_Li">
                         <a href='/resources'>
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Schemes.png" class="schemesImg" id="Schemes_img"> </div> <span class="menu-title">RESOURCES</span>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Schemes.png') ?>" class="schemesImg" id="Schemes_img"> </div> <span class="menu-title">RESOURCES</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a>Orders</a>
@@ -244,7 +244,7 @@
                                           <li><a href='/right-to-services'>Right to Services</a> </li>
                                           <li><a href='/acts/rules'>Acts & Rules</a> </li>
                                           <li><a href='/ordinances'>Ordinances</a> </li>
-                                          <li><a href='http://www.egazette.kerala.gov.in/' target='_blank'>Kerala Gazette </a> </li>
+                                          <li><a href='http://www.egazette.Adama.gov.in/' target='_blank'>Adama Gazette </a> </li>
                                     </ul>
                               </li>
                               <li>
@@ -259,7 +259,7 @@
                                           <li><a href='/results'>Results</a> </li>
                                           <li><a href='/guidelines'>Guidelines</a> </li>
                                           <li><a href='/citizen-s-charter'>Citizen's Charter</a> </li>
-                                          <li><a href='https://kerala.gov.in/disciplinary-action'>Disciplinary Action</a> </li>
+                                          <li><a href='https://Adama.gov.in/disciplinary-action'>Disciplinary Action</a> </li>
                                           <li><a href='/faqs'>FAQs</a> </li>
                                           <li><a href='/scholarship'>Scholarships</a> </li>
                                     </ul>
@@ -268,14 +268,14 @@
                   </li>
                   <li class="has-sub" id="Tourism_Li">
                         <a href='/tourism2'>
-                              <div class="iconImg"> <img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Tourism.png" class="tourismImg" id="Tourism_img"> </div> <span class="menu-title">TOURISM</span>
+                              <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Tourism.png') ?>" class="tourismImg" id="Tourism_img"> </div> <span class="menu-title">TOURISM</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li><a href='/kerala-at-a-glance'>Kerala at a Glance</a> </li>
+                              <li><a href='/Adama-at-a-glance'>Adama at a Glance</a> </li>
                               <li><a href='/accessibility'>Accessibility</a> </li>
                               <li><a href='/major-destinations'>Major Destinations</a> </li>
                               <li><a href='/specialities'>Specialities</a> </li>
-                              <li><a href='https://www.keralatourism.org/photo-gallery/' target='_blank'>Picture Gallery</a> </li>
+                              <li><a href='https://www.Adamatourism.org/photo-gallery/' target='_blank'>Picture Gallery</a> </li>
                               <li><a href='/information-centres'>Information Centers</a> </li>
                         </ul>
                   </li>
@@ -286,44 +286,5 @@
                   </li>
             </ul>
       </div>
-      <div class="non-mob">
-            <div id="jssor_1" style="position: relative; margin: 0px auto; top: -2px; left: 0px; width: 1519px; height: 337.556px; overflow: hidden; visibility: visible; background-color: rgb(255, 255, 255);" data-jssor-slider="1">
-                  <!-- Loading Screen -->
-                  <div style="position: absolute; top: 0px; left: 0px; width: 1350px; height: 300px; transform-origin: 0px 0px; transform: scale(1.12519);">
-                        <div class="" style="position: relative; margin: 0px auto; top: 0px; left: 0px; width: 1350px; height: 300px; overflow: visible; visibility: visible; background-color: rgb(255, 255, 255); display: block;">
-                              <div class="jssorl-003-oval" data-u="loading" style="position: absolute; top: 0px; left: 0px; text-align: center; background-color: rgba(0, 0, 0, 0.7); width: 1350px; height: 300px; display: none;">
-                                    <img src="<?php echo base_url() ?>assets/documents/10180/9bb84b94-a417-4a52-83f3-c3cd084d1144" style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;"></div>
-                              <div data-u="slides" style="cursor: pointer; position: absolute; top: 0px; left: 0px; width: 1350px; height: 300px; overflow: hidden; z-index: 0;">
-                                    <div style="top: 0px; left: 0px; width: 1350px; height: 300px; position: absolute; z-index: 0; pointer-events: none; display: none;">
-                                    </div>
-                              </div>
-                              <div data-u="slides" style="cursor: pointer; position: absolute; top: 0px; left: 0px; width: 1350px; height: 300px; overflow: hidden; z-index: 0;">
-                                    <div style="top: 0px; left: 0px; width: 1350px; height: 300px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; z-index: 0; display: none;">
-                                    </div>
-                                    <div style="z-index: 1; top: 0px; left: 0px; width: 1350px; height: 300px; position: absolute; overflow: hidden; transform: translate3d(1350px, 0px, 0px);">
-                                          <a href="https://citizencenter.kerala.gov.in/" target="_blank" style="display: block; top: 0px; left: 0px; width: 1350px; height: 300px; position: relative; z-index: 1;">
-                                                <img alt="Covid Logo" data-u="image" src="<?php echo base_url(); ?>assets/documents/10180/jssor slider 24 1 5 min js.js" border="0" style="top: 0px; left: -1.12782px; width: 1352.26px; height: 300px; z-index: 1; position: absolute;"></a>
-                                          <div class="jssorl-003-oval" data-u="loading" style="position: absolute; top: 0px; left: 0px; text-align: center; background-color: rgba(0, 0, 0, 0.7); width: 1350px; height: 300px; z-index: 1000; display: none;">
-                                                <img src="<?php echo base_url(); ?>assets/documents/10180/9bb84b94-a417-4a52-83f3-c3cd084d1144" style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;">
-                                          </div>
-                                    </div>
-                                    <div style="z-index: 1; top: 0px; left: 0px; width: 1350px; height: 300px; position: absolute; overflow: hidden;">
-                                          <a href="https://malayalam.icfoss.org/padhavali/" style="display: block; top: 0px; left: 0px; width: 1350px; height: 300px; position: relative; z-index: 1;">
-                                                <img alt="Malayalam words" data-u="image" src="<?php echo base_url()?>assets/adama_img/adama.png" border="0" style="top: 0px; left: -1.12782px; width: 1352.26px; height: 300px; z-index: 1; position: absolute;"></a>
-                                          <div class="jssorl-003-oval" data-u="loading" style="position: absolute; top: 0px; left: 0px; text-align: center; background-color: rgba(0, 0, 0, 0.7); width: 1350px; height: 300px; z-index: 1000; display: none;">
-                                                <img src="<?php echo base_url()?>assets/adama_img/adama.png" style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;">
-                                          </div>
-                                    </div>
-                                    <div> <img alt="150yearsofMahatmaMalayalam" data-u="image" src="<?php echo base_url() ?>assets/adama_img/adama.png" /></div>
-                                    <div>
-                                          <a class="eform" id="CMDRF_Contribute" target="_blank">
-                                                <img alt="CMDRF Donations" data-u="image" src="<?php echo base_url() ?>assets/documents/10180/0d05f245-b171-4293-a1ad-707db431b473" /></a>
-                                    </div>
-                                    <div>
-                                          <a href="https://donation.cmdrf.kerala.gov.in/" target="_blank"><img alt="CMDRF Donations" data-u="image" src="documents/10180/372069bf-5268-49ab-834c-fb94399597c6" /></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
+      
       </div>

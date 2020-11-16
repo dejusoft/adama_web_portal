@@ -1,0 +1,529 @@
+.modal-header,
+h4,
+.close {
+    background-color: #145c97;
+    color: white!important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h4 {
+    font-size: 18px;
+}
+
+</style><style type="text/css"><style>html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@media(min-width:1000px) {
+    #timeline .demo-card:nth-child(odd) .head::after,
+    #timeline .demo-card:nth-child(even) .head::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+    }
+    #timeline .demo-card:nth-child(odd) .head::before,
+    #timeline .demo-card:nth-child(even) .head::before {
+        position: absolute;
+        content: "";
+        width: 9px;
+        height: 9px;
+        background-color: #bdbdbd;
+        border-radius: 9px;
+        box-shadow: 0 0 2px 8px #f7f7f7;
+    }
+}
+
+.demo-card:nth-child(1) {
+    order: 1;
+}
+
+.demo-card:nth-child(2) {
+    order: 6;
+}
+
+.demo-card:nth-child(3) {
+    order: 2;
+}
+
+.demo-card:nth-child(4) {
+    order: 7;
+}
+
+.demo-card:nth-child(5) {
+    order: 3;
+}
+
+.demo-card:nth-child(6) {
+    order: 8;
+}
+
+.demo-card:nth-child(7) {
+    order: 4;
+}
+
+.demo-card:nth-child(8) {
+    order: 9;
+}
+
+.demo-card:nth-child(9) {
+    order: 5;
+}
+
+.demo-card:nth-child(10) {
+    order: 10;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#timeline {
+    padding: 10px 0;
+    background: #f7f7f7;
+    border-top: 1px solid rgba(191, 191, 191, 0.4);
+    border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+#timeline h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #2166a1;
+}
+
+#timeline p.leader {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 45px;
+    color: #9E9E9E;
+    font-weight: bold;
+}
+
+#timeline .demo-card-wrapper {
+    position: relative;
+    margin: auto;
+}
+
+@media(min-width:1000px) {
+    #timeline .demo-card-wrapper {
+        display: flex;
+        flex-flow: column wrap;
+        width: 1170px;
+        height: 2850px;
+        margin: 0 auto;
+    }
+}
+
+#timeline .demo-card-wrapper::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+@media(min-width:1000px) {
+    #timeline .demo-card-wrapper::after {
+        border-left: 1px solid #bdbdbd;
+    }
+}
+
+#timeline .demo-card {
+    position: relative;
+    display: block;
+    margin: 10px auto 80px;
+    max-width: 94%;
+    z-index: 2;
+}
+
+@media(min-width:480px) {
+    #timeline .demo-card {
+        max-width: 60%;
+        box-shadow: 0 1px 22px 4px rgba(0, 0, 0, 0.07);
+    }
+}
+
+@media(min-width:720px) {
+    #timeline .demo-card {
+        max-width: 40%;
+    }
+}
+
+@media(min-width:1000px) {
+    #timeline .demo-card {
+        max-width: 450px;
+        height: auto;
+        margin: 90px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    #timeline .demo-card:nth-child(odd) {
+        margin-right: 45px;
+    }
+    #timeline .demo-card:nth-child(odd) .head::after {
+        border-left-width: 15px;
+        border-left-style: solid;
+        left: 100%;
+    }
+    #timeline .demo-card:nth-child(odd) .head::before {
+        left: 491.5px;
+    }
+    #timeline .demo-card:nth-child(even) {
+        margin-left: 45px;
+    }
+    #timeline .demo-card:nth-child(even) .head::after {
+        border-right-width: 15px;
+        border-right-style: solid;
+        right: 100%;
+    }
+    #timeline .demo-card:nth-child(even) .head::before {
+        right: 489.5px;
+    }
+    #timeline .demo-card:nth-child(2) {
+        margin-top: 180px;
+    }
+}
+
+#timeline .demo-card .head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+#timeline .demo-card .head .number-box {
+    display: inline;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.17);
+}
+
+#timeline .demo-card .head h2 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: inherit;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 6px;
+    line-height: 1rem;
+}
+
+@media(min-width:480px) {
+    #timeline .demo-card .head h2 {
+        font-size: 165%;
+        line-height: 1.2rem;
+    }
+}
+
+#timeline .demo-card .head h2 span {
+    display: block;
+    font-size: .6rem;
+    margin: 0;
+}
+
+@media(min-width:480px) {
+    #timeline .demo-card .head h2 span {
+        font-size: .8rem;
+    }
+}
+
+#timeline .demo-card .body {
+    background: #fff;
+    border: 1px solid rgba(191, 191, 191, 0.4);
+    border-top: 0;
+    padding: 15px;
+}
+
+@media(min-width:1000px) {
+    #timeline .demo-card .body {
+        height: auto;
+    }
+}
+
+#timeline .demo-card .body p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+#timeline .demo-card .body img {
+    display: block;
+    width: 100%;
+}
+
+#timeline .demo-card--step1 {
+    background-color: #46b8e9;
+}
+
+#timeline .demo-card--step1 .head::after {
+    border-color: #46b8e9;
+}
+
+#timeline .demo-card--step2 {
+    background-color: #6bbaa7;
+}
+
+#timeline .demo-card--step2 .head::after {
+    border-color: #6bbaa7;
+}
+
+#timeline .demo-card--step3 {
+    background-color: #d4883b;
+}
+
+#timeline .demo-card--step3 .head::after {
+    border-color: #d4883b;
+}
+
+#timeline .demo-card--step4 {
+    background-color: #4897d8;
+}
+
+#timeline .demo-card--step4 .head::after {
+    border-color: #4897d8;
+}
+
+#timeline .demo-card--step5 {
+    background-color: #ce7996;
+}
+
+#timeline .demo-card--step5 .head::after {
+    border-color: #ce7996;
+}
+
+#timeline .demo-card--step6 {
+    background-color: #e4a060;
+}
+
+#timeline .demo-card--step6 .head::after {
+    border-color: #e4a060;
+}
+
+#timeline .demo-card--step7 {
+    background-color: #5cb5af;
+}
+
+#timeline .demo-card--step7 .head::after {
+    border-color: #5cb5af;
+}
+
+#timeline .demo-card--step8 {
+    background-color: #95b8e0;
+}
+
+#timeline .demo-card--step8 .head::after {
+    border-color: #95b8e0;
+}
+
+#timeline .demo-card--step9 {
+    background-color: #b34b52;
+}
+
+#timeline .demo-card--step9 .head::after {
+    border-color: #b34b52;
+}
+
+#timeline .demo-card--step10 {
+    background-color: #6c648b;
+}
+
+#timeline .demo-card--step10 .head::after {
+    border-color: #6c648b;
+}
+
+.body ul li {
+    list-style-type: disc;
+    line-height: 1.4;
+    margin-left: 5%;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+
+.modal-body ul li {
+    list-style-type: disc!important;
+    font-size: 16px!important;
+    line-height: 1.5!important;
+    margin-left: 5%!important;
+    font-weight: normal!important;
+    color: #a2a2a2;
+}
+
+.modal-body ul {
+    font-size: 16px!important;
+    line-height: 1.75!important;
+    font-weight: bold!important;
+}
+
+.body ul li a {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 23px!important;
+    letter-spacing: 1.25px!important;
+}
+
+#timeline h1 {
+    margin-bottom: 2px!important;
+}
+
+#timeline p.leader {
+    margin-bottom: 5px!important;
+}
+
+.small {
+    color: white!important;
+    margin-bottom: 4px!important;
+    font-size: 9px!important;
+}

@@ -1,5 +1,4 @@
 
-
 <script type="text/javascript">
       /*<![CDATA[*/
       $(document).ready(function () {
@@ -32,7 +31,7 @@
       <link href="file:///C:documents/10180/4f6e6799-7026-4069-9558-0b7a7c8de138" rel="stylesheet" type="text/css">
 <style type="text/css">
       body {
-            background: #3C3C3C;
+            background: white;
             font-family: arial, helvetica;
       }
 
@@ -109,61 +108,15 @@
       }
 </style>
 </p>
-</div>
+
 <div class="entry-links"> </div>
-</div>
-</div>
-</div>
-</div>
-<div id="p_p_id_56_INSTANCE_r5COI3ZION5m_" class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content ">
-      <span id="p_56_INSTANCE_r5COI3ZION5m"></span>
-      <div class="portlet-body">
-            <div class="portlet-borderless-container" style="">
-                  <div class="portlet-body">
-                        <div class="journal-content-article" id="article_10154_10180_14458157_2.0">
-                              <p>
-                                    <link href="https://kerala.gov.indocuments/10180/3c96047b-cd70-4c4e-86f9-bb4e99674eb7" rel="stylesheet" type="text/css">
-                              <style type="text/css">
-                                    .verticall-menu {
-                                          padding-left: 4px;
-                                          width: 100%;
-                                    }
 
-                                    .verticall-menu a {
-                                          background-color: #145c97;
-                                          color: white;
-                                          display: block;
-                                          padding: 5.5px;
-                                          text-decoration: none;
-                                          font-size: 13px;
-                                          border-bottom: 1px solid #f5f5f5;
-                                    }
-
-                                    .verticall-menu a:hover {
-                                          text-decoration: none;
-                                          color: #f9d057;
-                                    }
-
-                                    .verticall-menu a.active {
-                                          background-color: #4CAF50;
-                                          color: white;
-                                    }
-                              </style>
-                              </p>
-                              <div class="verticall-menu"> <a href="http://www.prd.kerala.gov.in/ml/pressrelease" target="_blank">Press Release</a> <a href="https://www.kerala.gov.in/business-policies">Policies</a> <a href="https://kerala.gov.in/acts/rules">Acts &amp; Rules</a>                                                <a href="/web/guest/tenders">Tenders</a> <a href="https://kerala.gov.in/reports-and-manuals">General Reports</a>
-                                    <a href="https://kerala.gov.in/what-s-new">Advertisements</a> <a href="https://kerala.gov.in/application-forms">Application Forms</a>
-                              </div>
-                              <p> &nbsp;</p>
-                        </div>
-                        <div class="entry-links"> </div>
-                  </div>
-            </div>
-      </div>
 </div>
 </div>
 </div>
 </div>
-<div class="portlet-layout">
+<div class="portlet-layout"
+ style="color:#f7be33;font-weight:600; background-color: #428bca;">
       <div class="aui-w100 portlet-column portlet-column-only" id="column-14">
             <div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-14">
                   <div id="p_p_id_56_INSTANCE_pjcsGwV5U62a_" class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content ">
@@ -175,32 +128,33 @@
                                               <!-- <script type="text/javascript" src="https://sso.kerala.gov.in/Kerala/js/jquery-1.10.1.js"></script> -->
                                                 <div class="linkscroll" id="xx">
                                                       <!-- <hr> -->
-                                                      <ul id="c" style="">
+                                                      <ul id="c" >
                                                             <li class="active1" style="left: 0px; transition-delay: 1.2s;">
-                                                                  <p>
-                                                                        <a href="http://www.keralait.org/" target="_blank"> <img alt="Adama IT" src="<?php echo base_url()?>assets/documents/10180/adama_it.png" title="Adama IT"></a>
+                                                                  <p >
+                                                                        <a href="http://www.keralait.org/" style="color: black;" target="_blank"> <img alt="Adama IT" src="<?php echo base_url()?>assets/documents/10180/adama_it.png" title="Adama IT">Adama IT</a>
                                                                   </p>
                                                             </li>
                                                             <li class="active1" style="left: 20%; transition-delay: 1.4s;">
                                                                   <p>
-                                                                        <a href="http://ml.vikaspedia.in/" target="_blank"> <img alt="Vikaspedia" src="documents/10180/874ae8bb-59cf-46c7-8b93-f14f8cffedc1" style="" title="Vikaspedia"></a>
+                                                                        <a href="http://ml.vikaspedia.in/" target="_blank" style="color: black;"> 
+                                                                        <img alt="Governer" src="<?php echo base_url('assets/adama_img/menu_img/Government.png')?>" style="color: back;" title="Vikaspedia">Governer</a>
                                                                   </p>
                                                             </li>
                                                             <li class="active1" style="left: 40%; transition-delay: 1.6s;">
                                                                   <p>
-                                                                        <a href="http://haritham.kerala.gov.in/" target="_blank">
-                                                                              <img alt="Haritha Keralam" src="documents/10180/b4d7ac9d-8f36-43ad-abfb-bf491709168e" style="" title="Haritha Keralam"></a>
+                                                                        <a href="http://haritham.kerala.gov.in/" style="color: black;" target="_blank">
+                                                                              <img alt="Haritha Keralam" src="<?php echo base_url('assets/adama_img/menu_img/Services.png')?>" style="" title="e-Services">Services</a>
                                                                   </p>
                                                             </li>
                                                             <li class="active1" style="left: 60%; transition-delay: 1.8s;">
                                                                   <p>
-                                                                        <a href="https://gem.gov.in/" target="_blank"> <img alt="GeM" src="documents/10180/cbbfe43e-46e9-40ff-8d5a-cac072556a15" style="" title="GEM"></a>
+                                                                        <a href="https://gem.gov.in/" style="color: black;" target="_blank"> <img alt="GeM" src="<?php echo base_url('assets/adama_img/menu_img/People.png')?>" style="" title="People"> People</a>
                                                                   </p>
                                                             </li>
                                                             <li class="active1" style="left: 80%; transition-delay: 2s;">
                                                                   <p>
-                                                                        <a href="http://sabarimala.kerala.gov.in/" target="_blank">
-                                                                              <img alt="Sabarimala" src="documents/10180/bda3e664-2a39-482f-8aec-bfc03f438e46" style="" title="Sabarimala Official Website"></a>
+                                                                        <a style="color:black" http://sabarimala.kerala.gov.in/" target="_blank">
+                                                                              <img alt="Sabarimala" src="<?php echo base_url('assets/adama_img/menu_img/Tourism.png')?>" style="" title="Sabarimala Official Website">Tourism</a>
                                                                   </p>
                                                             </li>
                                                             <li class="" style="left: 0px; transition-delay: 0.2s;">
@@ -215,8 +169,8 @@
                                                             </li>
                                                             <li class="" style="left: 40%; transition-delay: 0.6s;">
                                                                   <p>
-                                                                        <a href="https://etenders.kerala.gov.in" target="_blank">
-                                                                              <img alt="eTender" src="documents/10180/df22a322-7f0f-440d-adb3-ed23161962e7" style="" title="eTender"></a>
+                                                                        <a href="https://etenders.kerala.gov.in" style="color: black;" target="_blank">
+                                                                              <img alt="eTender" src="<?php echo base_url('assets/adama_img/menu_img/Tourism.png')?>" style="" title="Tourism">Tourism</a>
                                                                   </p>
                                                             </li>
                                                             <li class="" style="left: 60%; transition-delay: 0.8s;">
@@ -418,6 +372,16 @@
 </div>
 <!--<form action="#" id="hrefFm" method="post" name="hrefFm"> <span></span> </form>-->
 </div>
+<script src="<?php echo base_url('assets/js/barebone1.js');?>"></script>
+<!-- <link href="<?php echo base_url();?>assets/js/jquery.min.js" rel="stylesheet" /> -->
+<script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>
+<script src="<?php echo base_url('assets/js/barebone.js');?>"></script>
+<script src="<?php echo base_url('assets/js/bootstrap.min.js');?>"></script>
+<script src="<?php echo base_url('assets/js/customScript.js');?>"></script>
+<script src="<?php echo base_url('assets/js/dropdown.js');?>"></script>
+<script src="<?php echo base_url('assets/js/main.js');?>"></script>
+<script src="<?php echo base_url('assets/js/menumake.js');?>"></script>
+<script src="<?php echo base_url('assets/js/serverTime.js');?>"></script>
 
 </body>
 

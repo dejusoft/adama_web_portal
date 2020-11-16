@@ -1410,7 +1410,7 @@ html {
 }
 
 .engheader {
-    background: url('../logo/Logo-new.png') 0 0 no-repeat, url('../logo/Bg_reduced.png') 0 0 no-repeat;
+    background: url('<?php echo base_url()?>logo/Logo-new.png') 0 0 no-repeat, url('../logo/Bg_reduced.png') 0 0 no-repeat;
     background-size: contain, cover;
     width: 100%;
     background-repeat: no-repeat;
