@@ -38,7 +38,7 @@
                         </div>
                   </div>
             </div>
-<div id="content">
+<div id="content" style="margin-left: 10px;">
       <div id="p_p_id_56_INSTANCE_K6ehKZzKbl02_" class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content ">
             <span id="p_56_INSTANCE_K6ehKZzKbl02"></span>
             <div class="portlet-body">

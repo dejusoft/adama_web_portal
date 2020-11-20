@@ -18,28 +18,24 @@
             <div class="button"></div>
             <ul style="line-height: 2;">
                   <li id="About_Li">
-                        <a href='/about-Adama'>
+                        <a href="<?php echo base_url('Adama/about') ?>">
                               <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/About.png') ?>" class="aboutImg" id="About_img"> </div> <span class="menu-title">ABOUT ADAMA</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a>Profile</a>
                                     <ul>
-                                          <li><a href='/state-profile'>State</a> </li>
-                                          <li><a href='/districts14'>Districts</a> </li>
-                                          <li><a href='/history'>History</a> </li>
-                                          <li><a href='/economy'>Economy</a> </li>
-                                          <li><a href='/election-reportage'>Elections</a> </li>
-                                          <li><a href='/judiciary'>Judiciary</a> </li>
-                                          <li><a href='/census2011'>Census 2011</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/States'); ?>">State</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Districts'); ?>">Districts</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/History') ?>">History</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Economy') ?>">Economy</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Census') ?>">Census 2013</a> </li>
                                     </ul>
                               </li>
                               <li><a>Socio-Cultural</a>
                                     <ul>
-                                          <li><a href='/literature'>Literature</a> </li>
-                                          <li><a href='/tourism-Adama'>Tourism</a> </li>
-                                          <li><a href='/fairs-festivals'>Festivals</a> </li>
-                                          <li><a href='/lifestyle'>Lifestyle</a> </li>
-                                          <li><a href='/recreation'>Recreation </a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Literature') ?>">Literature</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Tourism') ?>">Tourism</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Lifestyle') ?>">Lifestyle</a> </li>
                                     </ul>
                               </li>
                         </ul>
@@ -49,138 +45,111 @@
                               <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Government.png') ?>" class="gvtImg" id="Gov_img"> </div> <span class="menu-title">GOVERNMENT</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li><a href='/key-contacts'>Who's who</a>
+                              <li><a href='<?php echo base_url('Adama/Governor') ?>'>Who's who</a>
                                     <ul>
-                                          <li><a href='/governor2'>Governor</a> </li>
-                                          <li><a href='/pinarayi-vijayan'>Chief Minister</a> </li>
-                                          <li><a href='/cabinet'>Council of Ministers</a> </li>
-                                          <li><a href='http://www.niyamasabha.org/codes/members.htm' target="_blank">MLAs</a> </li>
-                                          <li><a href='/secretaries'>Secretaries</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Governor') ?>">Governor</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/ChiefMinister') ?>">Chief Minister</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/CouncilMinister') ?>">Council of Ministers</a> </li>
+                                          <!-- <li><a href='http://www.niyamasabha.org/codes/members.htm' target="_blank">MLAs</a> </li> -->
+                                          <!-- <li><a href="<?php echo base_url('Adama/Secretaries') ?>">Secretaries</a> </li> -->
                                     </ul>
                               </li>
-                              <li><a href='/departments'>Department</a>
+                              <li><a href='<?php echo base_url('Adama/Agricultural_department') ?>'>Department</a>
                                     <ul>
-                                          <li><a href='/agriculture-developement'>Secretariat Departments</a> </li>
-                                          <li><a href='/directorate'>Directorates</a> </li>
-                                          <li><a href='/government-institute'>Government Institutions</a> </li>
-                                          <li><a href='/local-self-governance'>Local Self Government</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/Agricultural_department') ?>">Secretariat Departments</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/directories') ?>">Directorates</a> </li>
+                                          <!-- <li><a href="<?php echo base_url('Adama/government_institute') ?>">Government Institutions</a> </li> -->
+                                          <!-- <li><a href='/local-self-governance'>Local Self Government</a> </li> -->
                                     </ul>
                               </li>
-                              <li><a href='/helpline'>Helpline Numbers</a> </li>
+                              <li><a href='#'>Helpline Numbers</a> </li>
                         </ul>
                   </li>
-                  <li id="Service_Li">
-                        <a href='/service'>
+                  <li id="Service_List">
+                        <a href='<?php echo base_url('Adama/e_services') ?>'>
                               <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Services.png') ?>" class="serviceImg" id="Service_img"> </div> <span class="menu-title">SERVICES</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li> <a href='<?php echo base_url('Adama/e_services') ?>'>e-Services</a> </li>
-                              <li> <a href='<?php echo base_url('Adama/life_event_model');?>'>Life Event Model Services</a> </li>
-                              <li> <a href='/online-service-links'>Online Service Links</a> </li>
-                              <li><a href="/Adama-app-store">Adama App Store</a> </li>
-                              <li> <a href='http://ksdi.Adama.gov.in/ksdi/' target="_blank">Geo Locator</a> </li>
-                              <li><a>Citizen Service Center</a>
-                                    <ul>
-                                          <li><a href='/local-service-provider'>Akshaya Centers</a> </li>
-                                          <li><a href='/friends'>Friends Jana Seva Kendra</a> </li>
-                                          <li><a href='/citizen-call-centre'>Citizen Call Centers</a> </li>
-                                    </ul>
-                              </li>
-                              <li><a href='/policies'>Policy & Acts</a>
-                                    <ul>
-                                          <!-- <li><a href='/right-to-services'>Right to Service</a> </li> <li><a href='/citizen-s-charter'>Citizen Charter</a> </li> -->
-                                          <li><a href='http://Adamasic.gov.in/' target='_blank'>RTI</a> </li>
-                                    </ul>
-                              </li>
+                              <li> <a href='<?php echo base_url('Adama/life_event_model'); ?>'>Life Event Model Services</a> </li>
+                              <li><a href="<?php echo base_url('Adama/adama_app_store') ?>">Adama App Store</a> </li>
+                              <li> <a href='#' target="_blank">Geo Locator</a> </li>
+                             <li><a href="<?php echo base_url('Adama/citizens_call_center') ?>">Citizen Service Center</a> </li> 
                         </ul>
                   </li>
                   <li id="Mission_Li">
-                        <a href='/missions'>
+                        <a href='<?php echo base_url('Adama/Mission') ?>'>
                               <div class="iconImg">
                                     <img src="<?php echo base_url('assets/adama_img/menu_img/Mission.png') ?>" class="missionImg" id="Mission_img"> </div> <span class="menu-title">MISSIONS</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li><a href='/harithaAdamam'>Haritha Adamam</a> </li>
-                              <li><a href='/aardram'>Aardram</a> </li>
-                              <li><a href='/life'>LIFE</a> </li>
-                              <li><a href='/education-mission'>Education Mission</a> </li>
+                              <li><a href='<?php echo base_url('Adama/Life_Mission') ?>'>LIFE</a> </li>
+                              <li><a href='<?php echo base_url('Adama/Education_Mission') ?>'>Education Mission</a> </li>
                         </ul>
                   </li>
                   <li id="People_Li">
-                        <a href='/people'>
+                        <a href='<?php echo base_url('Adama/People'); ?>'>
                               <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/People.png') ?>" class="peopleImg" id="People_img"> </div> <span class="menu-title">PEOPLE</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li><a href="/education-sector">Education</a>
+                              <li><a href="<?php echo base_url('Adama/Education_sector') ?>">Education</a>
                                     <ul>
-                                          <li><a href='/educational-schemes'>Educational Schemes</a> </li>
-                                          <li><a href='/vocational-education'>Vocational Education</a> </li>
-                                          <li><a href='/literacy-programmes'>Literacy Programmes</a> </li>
-                                          <li><a href='/digital-learning-resources'>Digital Learning Resources</a> </li>
-                                          <li><a href='/industrial-training'>Industrial Training</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Education_sector') ?>'>Educational Schemes</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Vocational') ?>'>Vocational Education</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Literacy_programmes') ?>'>Literacy Programmes</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Digital_Leaning_Resource') ?>'>Digital Learning Resources</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Industrial_Training') ?>'>Industrial Training</a> </li>
                                     </ul>
                               </li>
-                              <li><a href="/social-welfare-initiatives">Social Welfare Initiatives</a>
+                              <li><a href="<?php echo base_url('Adama/social_welfare_initiatives')?>">Social Welfare Initiatives</a>
                                     <ul>
-                                          <li><a href='/women'>Women</a> </li>
-                                          <li><a href='/children'>Children</a> </li>
-                                          <li><a href='/specially-abled-citizens'>Specially-Abled Citizens</a> </li>
-                                          <li><a href='/youth'>Youth</a> </li>
-                                          <li><a href='/senior-citizen'>Senior Citizen</a> </li>
-                                          <li><a href='/minorities'>Minorities</a> </li>
-                                          <li><a href='/welfare-institutions'>Welfare Institutions</a> </li>
-                                          <li><a href='/social-enterpruneurship'>Social Entrepreneurship</a> </li>
-                                          <li><a href='/social-welfare-others'>Others</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Women') ?>'>Women</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Children') ?>'>Children</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/specially_need_citizens') ?>'>Specially-Abled Citizens</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Youth') ?>'>Youth</a> </li>
+                                         <li><a href='<?php echo base_url('Adama/Enterpreneurship') ?>'>Social Entrepreneurship</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/social_life_walfare_other') ?>'>Others</a> </li>
                                     </ul>
                               </li>
-                              <li><a href="/health-services">Health Services</a>
+                              <li><a href="<?php echo base_url('Adama/Health_Sector'); ?>">Health Services</a>
                                     <ul>
-                                          <li><a href='/emergency-medical-services'>Emergency Medical Services</a> </li>
-                                          <li><a href='/palliative-care'>Palliative Care</a> </li>
-                                          <li><a href='/health-campaigns'>Health Campaigns</a> </li>
-                                          <li><a href='/national-health-mission'>National Health Mission</a> </li>
-                                          <li><a href='/vaccinations-preventive-medicines'>Vaccinations & Preventive Medicines</a>
+                                          <li><a href='<?php echo base_url('Adama/Emergecny_health_care') ?>'>Emergency Medical Services</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Palliative_care') ?>'>Palliative Care</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Health_Campigns') ?>'>Health Campaigns</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/National_Health_Mission') ?>'>National Health Mission</a> </li>
+                                          <li><a href='<?php echo base_url('Adama/Vaccination') ?>'>Vaccinations & Preventive Medicines</a>
                                           </li>
-                                          <li><a href='/health-related-links'>Related Links</a> </li>
+                                          <!-- <li><a href='/health-related-links'>Related Links</a> </li> -->
                                     </ul>
                               </li>
-                              <li><a href="/employment">Employment</a>
+                              <li><a href="<?php echo base_url('Adama/employeement')?>">Employment</a>
                                     <ul>
-                                          <li><a href='/Adama-psc'>Adama PSC</a> </li>
-                                          <li><a href='/employment-directorate'>Employment Department</a> </li>
-                                          <li><a href='/official-government-job-portal'>Official Government Job Portal</a> </li>
-                                          <li><a href='/self-employment-schemes'>Self Employment Schemes</a> </li>
-                                          <li><a href='/special-assistance-to-specially-abled'>Special Assistance to Specially
+                                          <li><a href="<?php echo base_url('Adama/adama_public_services')?>">Adama PSC</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/employeement_department')?>">Employment Department</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/official_job_portal')?>">Official Government Job Portal</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/self_employeement')?>">Self Employment Schemes</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/special_disable_employeement')?>"Special Assistance to Specially
                                                       Abled</a> </li>
-                                          <li><a href='/special-assistance-to-minorities'>Special Assistance to Minorities</a> </li>
+                                          <!-- <li><a href='/special-assistance-to-minorities'>Special Assistance to Minorities</a> </li> -->
                                     </ul>
                               </li>
-                              <li><a href="/skill-development">Skill Development</a>
+                              <li><a href="<?php echo base_url('Adama/skill_development')?>">Skill Development</a>
                                     <ul>
-                                          <li><a href='/it-school'>IT@School</a> </li>
-                                          <li><a href='/asap'>ASAP</a> </li>
-                                          <li><a href='/kase'>KASE</a> </li>
-                                          <li><a href='/ict'>ICT</a> </li>
-                                          <li><a href='/skilldevelopement-industrial-training'>Industrial Training</a> </li>
+                                          <li><a href="<?php echo base_url('Adama/adama_itc_academy')?>">Adama IT Academy</a> </li>
+                                          
+                                          <li><a href="<?php echo base_url('Adama/adama_it_solotion')?>">ICT</a> </li>
+                                          <!-- <li><a href='/skilldevelopement-industrial-training'>Industrial Training</a> </li> -->
                                     </ul>
                               </li>
-                              <li>
-                                    <a href="/non-resident-keralites">Non Resident Keralites</a>
-                                    <ul>
-                                          <li><a href='/financial-assistance'>Financial Assistance</a> </li>
-                                          <li><a href='/overseas-recruitements'>Overseas Recruitments</a> </li>
-                                          <li><a href='/pravasi-welfare'>Pravasi Welfare</a> </li>
-                                          <li><a href='/recognized-associations'>Recognized Associations</a></li>
-                                    </ul>
-                              </li>
+                              
                         </ul>
                   </li>
                   <li id="Business_Li">
-                        <a href="/business">
+                        <a href="<?php echo base_url('Adama/business')?>">
                               <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Business.png') ?>" class="businessImg" id="Bussiness_img"> </div> <span class="menu-title">BUSINESS</span>
                         </a>
                         <ul class="main-menu-ul">
-                              <li><a href='/finance-your-project'>Finance Your Project</a>
+                              <li><a href="<?php echo base_url('Adama/')?>">Finance Your Project</a>
                                     <ul>
                                           <li><a href='/large-enterprises'>Large Enterprises</a> </li>
                                           <li><a href='/small-medium-enterprises'>Small & Medium Enterprises</a> </li>
@@ -191,7 +160,7 @@
                                           <li><a href='/energy-saving-projects'>Energy Saving Projects</a> </li>
                                     </ul>
                               </li>
-                              <li><a href='/ease-of-doing-business'>Ease of Doing Business</a>
+                              <li><a href="<?php echo base_url('Adama/easy_doing_business')?>">Ease of Doing Business</a>
                                     <ul>
                                           <li><a href='/single-window-clearance'>Single-Window Clearance</a> </li>
                                           <li><a href='/msme-geo-portal'>MSME Geo Portal</a> </li>
@@ -218,26 +187,21 @@
                                           <li><a href='/entrepreneurship-development-club'>Entrepreneurship Development Club</a> </li>
                                     </ul>
                               </li>
-                              <li><a href='/business-policies'>Policies</a> </li>
-                              <li><a href='/tenders'>Tenders</a> </li>
-                              <li><a href='/what-s-new'>Advertisements</a> </li>
-                              <li><a href='/short-notices'>Quotations</a> </li>
-                              <li><a href='/application-forms'>Application Forms</a> </li>
-                        </ul>
+                                </ul>
                   </li>
                   <li class="has-sub" id="Schemes_Li">
-                        <a href='/resources'>
+                        <a href='#'>
                               <div class="iconImg"> <img src="<?php echo base_url('assets/adama_img/menu_img/Schemes.png') ?>" class="schemesImg" id="Schemes_img"> </div> <span class="menu-title">RESOURCES</span>
                         </a>
                         <ul class="main-menu-ul">
                               <li><a>Orders</a>
                                     <ul>
-                                          <li><a href='/cabinet-decisions-and-orders'>Cabinet Decisions</a> </li>
-                                          <li><a href='/gos/circulars'>Government orders/Circulars</a> </li>
-                                          <li><a href='/cmdrf'>CM's Distress Relief Fund</a> </li>
+                                          <li><a href='#'>Cabinet Decisions</a> </li>
+                                          <li><a href='#'>Government orders/Circulars</a> </li>
+                                          <li><a href='#'>CM's Distress Relief Fund</a> </li>
                                     </ul>
                               </li>
-                              <li><a>Statutory</a>
+                              <!-- <li><a>Statutory</a>
                                     <ul>
                                           <li><a href='/budget-2018-19'>State Budget</a> </li>
                                           <li><a href='/rti'>Right to Information</a> </li>
@@ -246,22 +210,22 @@
                                           <li><a href='/ordinances'>Ordinances</a> </li>
                                           <li><a href='http://www.egazette.Adama.gov.in/' target='_blank'>Adama Gazette </a> </li>
                                     </ul>
-                              </li>
+                              </li> -->
                               <li>
                                     <a>Others</a>
                                     <ul>
-                                          <li><a href='/five-year'>Five Year Plans</a> </li>
-                                          <li><a href='/economic-review'>Economic Review</a> </li>
-                                          <li><a href='/reports-and-manuals'>General Reports</a> </li>
-                                          <li><a href='/work-study-report'>Work-Study Report</a> </li>
+                                          <li><a href='#'>Five Year Plans</a> </li>
+                                          <!-- <li><a href='/economic-review'>Economic Review</a> </li> -->
+                                          <!-- <li><a href='/reports-and-manuals'>General Reports</a> </li> -->
+                                          <li><a href='#'>Work-Study Report</a> </li>
                                           <li><a href='/publication'>Publications</a> </li>
-                                          <li><a href='/notifications'>Notifications</a> </li>
-                                          <li><a href='/results'>Results</a> </li>
-                                          <li><a href='/guidelines'>Guidelines</a> </li>
-                                          <li><a href='/citizen-s-charter'>Citizen's Charter</a> </li>
-                                          <li><a href='https://Adama.gov.in/disciplinary-action'>Disciplinary Action</a> </li>
+                                          <!-- <li><a href='/notifications'>Notifications</a> </li> -->
+                                          <li><a href='#'>Results</a> </li>
+                                          <li><a href='#'>Guidelines</a> </li>
+                                          <li><a href='#'>Citizen's Charter</a> </li>
+                                          <!-- <li><a href='https://Adama.gov.in/disciplinary-action'>Disciplinary Action</a> </li> -->
                                           <li><a href='/faqs'>FAQs</a> </li>
-                                          <li><a href='/scholarship'>Scholarships</a> </li>
+                                          <!-- <li><a href='/scholarship'>Scholarships</a> </li> -->
                                     </ul>
                               </li>
                         </ul>
@@ -286,5 +250,5 @@
                   </li>
             </ul>
       </div>
-      
+
       </div>

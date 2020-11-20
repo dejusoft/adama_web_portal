@@ -1,0 +1,24 @@
+about adama
+ 1 profile
+  - state
+  - districts
+  - history
+  - economy
+  - cencus
+2 socio_cultural
+ - Literature
+ - Tourism
+ - lifestyle
+ -Recration
+3 Goverment
+ - Who's Who
+ - Deparment
+ - Helpline Numbers
+4 Services
+ - e_services
+ - Life Eevent Model Services
+ - App store
+ - Citizens Services
+ - Policy & 
+
+
